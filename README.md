@@ -4,7 +4,13 @@
 
 ## Descriere
 
-Acest repository conține informații și temele de la robotică. Mai jos veți găsi o mică glumă pentru a vă amuza!
+Acest repository conține informații și temele de la robotică. Pentru teme vor fi adaugate mai multe informatii: <br> 
+ - requirements
+ - detalii despre tema
+ - materiale foto/video
+ - cod
+
+Mai jos veți găsi o mică glumă pentru a vă amuza!
 
 ## Glumă
  <br> 
