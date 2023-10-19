@@ -1,5 +1,13 @@
-# IntroductionToRobotics
-o mica glumita:
+# Introduction to Robotics
+
+![Robotics GIF](link-catre-gif)
+
+## Descriere
+
+Acest repository conține informații și exemple legate de robotică. Mai jos veți găsi o mică glumă pentru a vă amuza.
+
+## Glumă
+
 Într-un bar se aduce un robot pe post de barman. Vine un client, se aşează la tejghea, robotul îi serveşte băutura şi îl întreabă:
 – Ce IQ aveţi?
 – 150…
@@ -10,15 +18,16 @@ o mica glumita:
 – 50…
 – Şi… tot fericit că l-ai votat pe Băsescu?
 
-Ce i-a spus robotul bărbatului pe care tocmai îl întâlnise?
-Eu sunt robot.
-Cum numești un robot care se lovește mereu de pereți?
-Wall-E.
-Ce fac roboții câini?
-Ei byte.
-Ce se întâmplă cu roboții după ce aceștia dispar?
-Ruginesc în pace.
-Care este trupa preferată a unui robot?
-Fețe metalice
-De ce a traversat puiul robot drumul?
-El a fost programat să.
+## Alte glume despre roboți
+
+- Cum numești un robot care se lovește mereu de pereți?
+  - Wall-E.
+- Ce fac roboții câini?
+  - Ei byte.
+- Ce se întâmplă cu roboții după ce aceștia dispar?
+  - Ruginesc în pace.
+- Care este trupa preferată a unui robot?
+  - Fețe metalice
+- De ce a traversat puiul robot drumul?
+  - El a fost programat să.
+
