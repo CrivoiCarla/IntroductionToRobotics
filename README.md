@@ -38,6 +38,7 @@ Mai jos veți găsi o mică glumă pentru a vă amuza!
   - El a fost programat asa.
 
 ## Homework 1
+
 [Tutorial GitHub]([https://www.youtube.com/watch?v=VIDEO_ID](https://youtu.be/1N3irRfwCFM))
 
 ### Components
