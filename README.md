@@ -4,25 +4,25 @@
 
 ## Descriere
 
-Acest repository conține informații și temele de la robotică. Pentru teme vor fi adaugate mai multe informatii: <br> 
- - requirements
- - detalii despre tema
- - materiale foto/video
- - cod
+Acest repository conține informații și temele de la robotică. Pentru teme vor fi adaugate mai multe informatii: 
+- requirements
+- detalii despre tema
+- materiale foto/video
+- cod
 
 Mai jos veți găsi o mică glumă pentru a vă amuza!
 
 ## Glumă
- <br> 
-Într-un bar se aduce un robot pe post de barman. Vine un client, se aşează la tejghea, robotul îi serveşte băutura şi îl întreabă: <br> 
-– Ce IQ aveţi? <br> 
-– 150… <br> 
-Şi robotul continuă conversaţia despre fizica cuantică, tehnologii medicale avansate şi alte subiecte care necesită un grad ridicat de cunoştinţe şi înţelegere.  <br> Impresionat, clientul iese din bar, stă două minute şi intră iar. La fel, îl preia robotul şi răspunde acestuia: <br> 
-– 100… <br> 
-Şi robotul continuă discuţia despre celebre meciuri de box, renumite fabrici de bere şi altele de acelaşi tip uzual. Clientul mai încearcă o dată faza, iese afară, intră şi este întâmpinat de robot: <br> 
-– Ce IQ aveţi? <br> 
-– 50… <br> 
-– Şi… tot fericit că l-ai votat pe Băsescu? <br> 
+
+Într-un bar se aduce un robot pe post de barman. Vine un client, se aşează la tejghea, robotul îi serveşte băutura şi îl întreabă:
+– Ce IQ aveți?
+– 150…
+Și robotul continuă conversaţia despre fizica cuantică, tehnologii medicale avansate şi alte subiecte care necesită un grad ridicat de cunoştinţe şi înţelegere.  Impresionat, clientul iese din bar, stă două minute şi intră iar. La fel, îl preia robotul şi răspunde acestuia:
+– 100…
+Și robotul continuă discuţia despre celebre meciuri de box, renumite fabrici de bere şi altele de același tip uzual. Clientul mai încearcă o dată faza, iese afară, intră şi este întâmpinat de robot:
+– Ce IQ aveți?
+– 50…
+– Și… tot fericit că l-ai votat pe Băsescu?
 
 ## Alte glume despre roboți
 
@@ -35,11 +35,11 @@ Mai jos veți găsi o mică glumă pentru a vă amuza!
 - Care este trupa preferată a unui robot?
   - Fețe metalice
 - De ce a traversat puiul robot drumul?
-  - El a fost programat asa.
+  - El a fost programat așa.
 
 ## Homework 1
 
-[Tutorial GitHub]([(https://youtu.be/1N3irRfwCFM)])
+[Vizualizare ](https://youtu.be/1N3irRfwCFM)
 
 ### Components
 - RGB LED (At least 1)
@@ -47,7 +47,6 @@ Mai jos veți găsi o mică glumă pentru a vă amuza!
 - Resistors and wires as needed
 
 ### Description
-Use a separate potentiometer for controlling each color of the RGB LED:Red,Green, andBlue.  This control must leveragedigital electronics.  Specifically,you  need  to  read  the  potentiometer’s  value  with  Arduino  and  then  write  amapped value to the LED pins.
+Use a separate potentiometer for controlling each color of the RGB LED: Red, Green, and Blue. This control must leverage digital electronics. Specifically, you need to read the potentiometer’s value with Arduino and then write a mapped value to the LED pins.
 
-![Tema 1](t1.jpeg) ![Tema1](t11.jpeg) 
-
+![Tema 1](t1.jpeg) ![Tema1](t11.jpeg)
