@@ -99,6 +99,11 @@ void loop() {
 }
 
 void handleButtonPress() {
+  // If the elevator is MOVING, ignore button presses 
+  if (elevatorState == 2) { 
+    return;
+  }
+
   unsigned long currentTime = millis();
   if (currentTime - lastButtonPressTime < 200) {  // debounce interval of 200ms
     return;                                       // previous press are ignored
