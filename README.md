@@ -53,7 +53,7 @@ Use a separate potentiometer for controlling each color of the RGB LED: Red, Gre
 
 ## Homework 2
 
-[Vizualizare ](https://youtu.be/1N3irRfwCFM)
+[Vizualizare ](https://youtube.com/shorts/hmYTQVivXF4?feature=share)
 
 ### Components
 -  LEDs (At least 4: 3 for the floors and 1 for the elevator’s operational
