@@ -63,14 +63,20 @@ state)
 - Resistors and wires as needed
 
 ### Description
-Design  a  control  system  that  simulates  a  3-floor  elevator  using  the  Arduinoplatform.  
+Design  a  control  system  that  simulates  a  3-floor  elevator  using  the  Arduino platform.  
+
 Here are the specific requirements:
-•LED Indicators:Each of the 3 LEDs should represent one of the 3 floors.The LED corresponding to the current floor should light up.  Additionally,another LED should represent the elevator’s operational state.  It should blink when the elevator is moving and remain static when stationary.
-•Buttons:Implement 3 buttons that represent the call buttons from the 3 floors.  When pressed, the elevator should simulate movement towards the floor after a short interval (2-3 seconds).
-•Buzzer  (optional  for  Computer  Science,  mandatory  for  CTI):The buzzer should sound briefly during the following scenarios:
-  –Elevator arriving at the desired floor (something resembling a ”cling”).
-  –Elevator  doors  closing  and  movement  (pro  tip:  split  them  into  2different sounds)
-•State Change & Timers:If the elevator is already at the desired floor,pressing the button for that floor should have no effect.  Otherwise, aftera button press, the elevator should ”wait for the doors to close” and then ”move”  to  the  corresponding  floor.   If  the  elevator  is  in  movement,  it should either do nothing or it should stack its decision (get to the firstprogrammed floor,  open the doors,  wait,  close them and then go to the next desired floor).
-•Debounce:Remember to implement debounce for the buttons to avoidu intentional repeated button presses.
+
+• LED Indicators: Each of the 3 LEDs should represent one of the 3 floors.The LED corresponding to the current floor should light up.  Additionally,another LED should represent the elevator’s operational state.  It should blink when the elevator is moving and remain static when stationary.
+
+• Buttons:Implement 3 buttons that represent the call buttons from the 3 floors.  When pressed, the elevator should simulate movement towards the floor after a short interval (2-3 seconds).
+
+• Buzzer  (optional  for  Computer  Science,  mandatory  for  CTI):The buzzer should sound briefly during the following scenarios:
+  – Elevator arriving at the desired floor (something resembling a ”cling”).
+  – Elevator  doors  closing  and  movement  (pro  tip:  split  them  into  2different sounds)
+  
+• State Change & Timers:If the elevator is already at the desired floor,pressing the button for that floor should have no effect.  Otherwise, aftera button press, the elevator should ”wait for the doors to close” and then ”move”  to  the  corresponding  floor.   If  the  elevator  is  in  movement,  it should either do nothing or it should stack its decision (get to the firstprogrammed floor,  open the doors,  wait,  close them and then go to the next desired floor).
+
+• Debounce:Remember to implement debounce for the buttons to avoidu intentional repeated button presses.
 
 ![Tema 2](t2.jpeg) ![Tema2](t22.jpeg)
