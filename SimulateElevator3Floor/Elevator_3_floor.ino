@@ -15,7 +15,7 @@ unsigned long lastOperationTime = 0;
 
 const char* ELEVATOR_STATES[] = {"STATIONARY", "DOOR_CLOSING", "MOVING", "DOOR_OPENING"};
 int elevatorState = 0;  // 0 corresponds to STATIONARY
-bool operationLEDState = false;
+bool operationLEDState = true;
 unsigned long lastLEDOperationTime = 0;
 const int buzzer = 8;
 
@@ -32,6 +32,7 @@ void setup() {
 
   // Initialize elevator at floor 1
   digitalWrite(ledPinFloor1, HIGH);
+  digitalWrite(ledPinOperational, HIGH);
 
   pinMode(buzzer, OUTPUT);
   Serial.begin(9600);
@@ -42,7 +43,8 @@ void setFloorLED(int floor) {
   digitalWrite(ledPinFloor1, LOW);
   digitalWrite(ledPinFloor2, LOW);
   digitalWrite(ledPinFloor3, LOW);
-
+  digitalWrite(ledPinOperational, HIGH);
+  
   switch (floor) {
     case 1:
       digitalWrite(ledPinFloor1, HIGH);
