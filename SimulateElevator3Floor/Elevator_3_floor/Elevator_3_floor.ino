@@ -61,6 +61,10 @@ void setFloorLED(int floor) {
 
 void loop() {
   handleButtonPress();
+  // If the elevator is MOVING, ignore button presses 
+  if (elevatorState == 2) { 
+    return;
+  }
   
   if (strcmp(ELEVATOR_STATES[elevatorState], "STATIONARY") == 0) {
     // Nothing to do here
