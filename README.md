@@ -100,7 +100,7 @@ The initial position should be on the DP. The current position always blinks (ir
 
 ## Homework 4
 
-[Vizualizare ](https://youtu.be/lr_9OH2ECP0)
+[Vizualizare ](https://youtu.be/Q6xPuRTwS4w)
 
 ### Components
 -  1 7-segment display
