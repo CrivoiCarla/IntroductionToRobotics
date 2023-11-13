@@ -98,3 +98,19 @@ The initial position should be on the DP. The current position always blinks (ir
 
 ![Tema 3](t3.jpeg)
 
+## Homework 4
+
+[Vizualizare ](https://youtu.be/lr_9OH2ECP0)
+
+### Components
+-  1 7-segment display
+-  3 buttons
+-  resistors
+-  wires (per logic)
+
+### Description
+1. Display shows ”000.0”. When pressing the Start button, the timer should start.
+2. During timer counter, each time you press the lap button, you should save that timer’s value in memory (not persistent, it is OK to be deleted upon reset), up to 4 laps (or more if you want); pressing the 5th time should override the 1st saved one. If you press the reset button while timer works, nothing happens. If you press the pause button, the timer stops.
+3. In Pause Mode, the lap flag button doesn’t work anymore. Pressing the reset button resets you to 000.0
+4. After reset, you can now press the flag buttons to cycle through the lap times. Each time you press the flag button, it takes you to the next saved lap. Pressing it continuously should cycle you through it continuously. Pressing the reset button while in this state resets all your flags and takes the timer back to ”000.0”
+![Tema 4](t4.jpeg)
