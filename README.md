@@ -114,3 +114,19 @@ The initial position should be on the DP. The current position always blinks (ir
 3. In Pause Mode, the lap flag button doesn’t work anymore. Pressing the reset button resets you to 000.0
 4. After reset, you can now press the flag buttons to cycle through the lap times. Each time you press the flag button, it takes you to the next saved lap. Pressing it continuously should cycle you through it continuously. Pressing the reset button while in this state resets all your flags and takes the timer back to ”000.0”
 ![Tema 4](t4.jpeg)
+
+## Homework 5 - ”Smart Environment Monitor and Logger”
+
+[Vizualizare ](https://youtu.be/PuZ1YfwFdWs)
+
+### Components
+-  Ultrasonic Sensor (HC-SR04)
+-  LDR (Light-Dependent Resistor)
+-  RGB LED
+-  resistors
+-  wires (per logic)
+-   (Optional) Additional sensors
+
+### Description
+This Arduino-based project, titled "Smart Environment Monitor and Logger" is designed to gather and log environmental data using a variety of sensors. It aims to provide a hands-on approach to integrating sensor readings, memory management, serial communication, and menu-driven user interaction. This project is an excellent exploration into the world of embedded systems and IoT applications.
+![Tema 5](t5.jpeg)
