@@ -130,3 +130,19 @@ The initial position should be on the DP. The current position always blinks (ir
 ### Description
 This Arduino-based project, titled "Smart Environment Monitor and Logger" is designed to gather and log environmental data using a variety of sensors. It aims to provide a hands-on approach to integrating sensor readings, memory management, serial communication, and menu-driven user interaction. This project is an excellent exploration into the world of embedded systems and IoT applications.
 ![Tema 5](t5.jpeg)
+
+## Homework 6 - BomberMan version1
+
+[Vizualizare ](https://youtu.be/vAg3sWAYmUs)
+
+### Components
+-  Joystick
+-  8x8 LED Matrix
+-  MAX7219
+-  Resistors and capacitors as needed
+-  Breadboard and connecting wires
+
+
+### Description
+There are 4 types of elements - player (blinks slowly), bombs (blinks fast), wall (doesn't blink) and reward (blinks very fast). The player moves from the joystick. By pressing the joystick button, a bomb will be planted which, after exploding, can erase a wall located either above, below, left or right. For the initial level, we have 6 bombs, if we use them all and do not reach the reward, we lose. After we use the last one, we have 10 seconds to reach the reward.
+![Tema 6](t6.jpeg)
