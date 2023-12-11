@@ -146,3 +146,20 @@ This Arduino-based project, titled "Smart Environment Monitor and Logger" is des
 ### Description
 There are 4 types of elements - player (blinks slowly), bombs (blinks fast), wall (doesn't blink) and reward (blinks very fast). The player moves from the joystick. By pressing the joystick button, a bomb will be planted which, after exploding, can erase a wall located either above, below, left or right. For the initial level, we have 6 bombs, if we use them all and do not reach the reward, we lose. After we use the last one, we have 10 seconds to reach the reward.
 ![Tema 6](t6.jpeg)
+
+## Homework 7 - BomberMan version2
+
+[Vizualizare ](https://youtu.be/vAg3sWAYmUs)
+
+### Components
+-  Joystick
+-  8x8 LED Matrix
+-  MAX7219
+-  Resistors and capacitors as needed
+-  Breadboard and connecting wires
+-  LCD
+
+
+### Description
+In version 1, I added an LCD and created an interactive menu. We are shown a message at the beginning, and after the menu. To scroll it, press up or down on the joystick. We have several categories. To select one of them, press the button on the joystick. During the game, information such as the player's name, the number of bombs he has left, the radius of a bomb and the level you have reached will be displayed.
+![Tema 7](t7.jpeg)
