@@ -161,5 +161,5 @@ There are 4 types of elements - player (blinks slowly), bombs (blinks fast), wal
 
 
 ### Description
-In version 1, I added an LCD and created an interactive menu. We are shown a message at the beginning, and after the menu. To scroll it, press up or down on the joystick. We have several categories. To select one of them, press the button on the joystick. During the game, information such as the player's name, the number of bombs he has left, the radius of a bomb and the level you have reached will be displayed.
+In version 1, I added an LCD and created an interactive menu. We are shown a message at the beginning, and after the menu. To scroll it, press up or down on the joystick. We have several categories. To select one of them, press the button on the joystick. During the game, information such as the player's name, the number of bombs he has left, the radius of a bomb and the level you have reached will be displayed. We can also set the intensity of the matrix and the LCD from Serial.Monitor
 ![Tema 7](t7.jpeg)
