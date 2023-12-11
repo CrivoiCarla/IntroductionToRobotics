@@ -149,7 +149,7 @@ There are 4 types of elements - player (blinks slowly), bombs (blinks fast), wal
 
 ## Homework 7 - BomberMan version2
 
-[Vizualizare ](https://youtu.be/vAg3sWAYmUs)
+[Vizualizare ](https://youtu.be/p29qg4rfzMg)
 
 ### Components
 -  Joystick
