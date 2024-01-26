@@ -244,6 +244,6 @@ This Arduino project is a sequence memory game inspired by "Simon Says". It chal
 4. **Incorrect Sequence**: If the player presses the buttons in the wrong order, the buzzer emits a negative sound, and the RGB LED turns red. The game then displays a new sequence.
 
 ### Demonstration
-[Vizualizare](https://youtu.be/mTO6zZ78T38)
+[Vizualizare](https://youtu.be/gzK4PfYbPtA)
 
 ![Arduino Sequence Memory Game Image](memory.jpeg)
