@@ -165,7 +165,7 @@ In version 1, I added an LCD and created an interactive menu. We are shown a mes
 ![Tema 7](t7.jpeg)
 
 
-# Homework 8 - Arduino Radar with Ultrasonic Sensor
+# Arduino Radar with Ultrasonic Sensor
 
 ### Components
 - Arduino UNO
