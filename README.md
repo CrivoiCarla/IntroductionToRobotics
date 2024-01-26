@@ -187,7 +187,7 @@ This project demonstrates how to create a simple radar system using Arduino and 
 ### Demonstration 
 [Vizualizare](https://youtu.be/JGPwgHwKcnw)
 
-![Arduino Radar Project Image](radar.jpg)
+![Arduino Radar Project Image](radar.jpeg)
 
 
 # Arduino Alarm System with Distance Sensor and Buzzer
@@ -220,7 +220,7 @@ This alarm system is ideal for home security, especially for doors or sensitive 
 [Vizualizare](https://youtu.be/skfQAR9B2vw)
 
 
-![Arduino Alarm System Image](alarm.jpg)
+![Arduino Alarm System Image](alarm.jpeg)
 
 # Arduino Sequence Memory Game
 
@@ -246,4 +246,4 @@ This Arduino project is a sequence memory game inspired by "Simon Says". It chal
 ### Demonstration
 [Vizualizare](https://youtu.be/mTO6zZ78T38)
 
-![Arduino Sequence Memory Game Image](memory.jpg)
+![Arduino Sequence Memory Game Image](memory.jpeg)
