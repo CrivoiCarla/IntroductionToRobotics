@@ -187,7 +187,7 @@ This project demonstrates how to create a simple radar system using Arduino and 
 ### Demonstration 
 [Vizualizare](https://youtu.be/JGPwgHwKcnw)
 
-![Arduino Radar Project Image](radar.jpeg)
+![Arduino Radar Project Image](Radar.jpeg)
 
 
 # Arduino Alarm System with Distance Sensor and Buzzer
