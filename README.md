@@ -163,3 +163,87 @@ There are 4 types of elements - player (blinks slowly), bombs (blinks fast), wal
 ### Description
 In version 1, I added an LCD and created an interactive menu. We are shown a message at the beginning, and after the menu. To scroll it, press up or down on the joystick. We have several categories. To select one of them, press the button on the joystick. During the game, information such as the player's name, the number of bombs he has left, the radius of a bomb and the level you have reached will be displayed. We can also set the intensity of the matrix and the LCD from Serial.Monitor
 ![Tema 7](t7.jpeg)
+
+
+# Homework 8 - Arduino Radar with Ultrasonic Sensor
+
+### Components
+- Arduino UNO
+- Ultrasonic Sensor (HC-SR04)
+- Servo Motor
+- Breadboard
+- Jump Wires
+- Resistors (optional for voltage regulation)
+
+### Description
+This project demonstrates how to create a simple radar system using Arduino and an ultrasonic sensor. The ultrasonic sensor is used to detect objects in its path, and the data is visualized in real-time using a servo motor to emulate the radar sweeping motion. The project is an excellent way to understand how ultrasonic sensors work and can be utilized in practical applications such as distance measurement, obstacle avoidance, and automation systems.
+
+### How It Works
+- The ultrasonic sensor emits a high-frequency sound wave and waits for the echo.
+- The time taken for the echo to return is calculated by the Arduino, which then translates this into distance.
+- The servo motor rotates the sensor for a sweeping effect, and the distance data is visualized in a manner that resembles a radar screen.
+
+
+### Demonstration 
+[Vizualizare](https://youtu.be/JGPwgHwKcnw)
+
+![Arduino Radar Project Image](radar.jpg)
+
+
+# Arduino Alarm System with Distance Sensor and Buzzer
+
+### Components
+- Arduino UNO
+- Ultrasonic Distance Sensor (HC-SR04)
+- Buzzer
+- RGB LED
+- Buttons (3x)
+- Breadboard
+- Jump Wires
+- Resistors
+- Optional: Enclosure Box
+
+### Description
+This project is an Arduino-based alarm system designed for door security. It utilizes an ultrasonic distance sensor to detect if someone is at the door. When the sensor detects a presence, the system activates a loud buzzer and flashes an RGB LED as an alert. The system is encased in a box for practical deployment at doors or entryways.
+
+### Functionality
+- **Detection**: The ultrasonic sensor monitors the distance in front of the door. If it detects an object within a predefined range (e.g., less than 2 meters), it triggers the alarm.
+- **Alarm**: Upon detection, the buzzer emits a loud sound, and the RGB LED starts flashing rapidly, serving as a visual and auditory warning.
+- **Secret Button Combination**: The alarm can be deactivated by pressing three buttons in a specific sequence. This acts as a 'secret code' for the system.
+- **Incorrect Attempts**: If the wrong button sequence is entered, the alarm's intensity increases, making it louder and more noticeable.
+
+
+### Usage
+This alarm system is ideal for home security, especially for doors or sensitive areas. The loud buzzer and flashing LED provide a strong deterrent against unauthorized entry, while the secret button combination ensures that only authorized individuals can deactivate the system.
+
+### Demonstration
+[Vizualizare](https://youtu.be/JGPwgHwKcnw)
+
+
+![Arduino Alarm System Image](alarm.jpg)
+
+# Arduino Sequence Memory Game
+
+### Components
+- Arduino UNO
+- LEDs (4x)
+- Resistors for LEDs
+- Push Buttons (4x)
+- Buzzer
+- RGB LED
+- Breadboard
+- Jump Wires
+
+### Description
+This Arduino project is a sequence memory game inspired by "Simon Says". It challenges players to memorize and replicate random light sequences. The game uses four distinct LEDs, each associated with a corresponding button. Players must press the buttons in the order that the LEDs light up.
+
+### Gameplay
+1. **Sequence Display**: The game begins by displaying a random sequence using the four LEDs.
+2. **Player Response**: The player must replicate the sequence by pressing the buttons in the correct order.
+3. **Correct Sequence**: If the player successfully replicates the sequence, the buzzer makes a positive sound, and the RGB LED turns green. Then, a new, slightly longer sequence is displayed.
+4. **Incorrect Sequence**: If the player presses the buttons in the wrong order, the buzzer emits a negative sound, and the RGB LED turns red. The game then displays a new sequence.
+
+### Demonstration
+[Vizualizare](https://youtu.be/JGPwgHwKcnw)
+
+![Arduino Sequence Memory Game Image](memory.jpg)
